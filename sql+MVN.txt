@@ -1,0 +1,16 @@
+I have 1 table in db_example database.
+Here is script to create this table:
+
+
+CREATE TABLE `test` 
+(
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  
+`phone` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) 
+ENGINE=InnoDB AUTO_INCREMENT=191 DEFAULT CHARSET=latin1
+
+
+Also I'm running application with Maven configuration using command line: spring-boot:run
